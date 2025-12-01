@@ -19,11 +19,11 @@ final ThemeData lightTheme = ThemeData(
       borderRadius: BorderRadius.circular(16.0),
       side: BorderSide(
         width: 0.5,
-        color: Colors.grey.withOpacity(0.3),
+        color: Colors.grey.withValues(alpha: 0.3),
       ),
     ),
   ),
-  cardTheme: CardTheme(
+  cardTheme: CardThemeData(
     shape: RoundedRectangleBorder(
       borderRadius: BorderRadius.circular(20.0),
     ),
@@ -59,11 +59,11 @@ final ThemeData darkTheme = ThemeData(
       borderRadius: BorderRadius.circular(16.0),
       side: BorderSide(
         width: 0.5,
-        color: Colors.grey.withOpacity(0.5),
+        color: Colors.grey.withValues(alpha: 0.5),
       ),
     ),
   ),
-  cardTheme: CardTheme(
+  cardTheme: CardThemeData(
     shape: RoundedRectangleBorder(
       borderRadius: BorderRadius.circular(20.0),
     ),
